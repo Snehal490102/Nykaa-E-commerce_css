@@ -1,0 +1,166 @@
+/* Importing web fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Applying the web font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav table {
+    width: 100%;
+}
+
+nav td {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #e0e0e0;
+    color: #000;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin: 0 0 15px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Styling for product and service sections */
+article {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background: #fff;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+audio {
+    display: block;
+    margin: 10px 0;
+}
+
+iframe {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+footer a {
+    color: #007bff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.4;
+}
+
+/* Pseudo-elements */
+a::before {
+    content: '🔗';
+    margin-right: 5px;
+}
+
+button::after {
+    content: '➡️';
+    margin-left: 5px;
+}
+
+/* Pseudo-classes */
+a:active {
+    color: #0056b3;
+}
+
+a:focus {
+    outline: 2px solid #007bff;
+}
+
+section:nth-of-type(odd) {
+    background: #f9f9f9;
+}
+
+section:nth-of-type(even) {
+    background: #fff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
