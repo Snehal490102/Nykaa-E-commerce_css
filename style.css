@@ -2,208 +2,208 @@
 
 
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  background-color: #f4f4f4;
-}
-
-/* Header styles */
-header {
-  background-color: #ffffff;
-  padding: 10px 0;
-  border-bottom: 2px solid #ddd;
-}
-
-nav table {
-  width: 100%;
-}
-
-nav td {
-  padding: 10px;
-}
-
-nav img {
-  height: 50px;
-}
-
-nav a {
-  color: #007bff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: 700;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Main content styles */
-main.container {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2, h3 {
-  color: #333;
-  margin: 20px 0;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-section p {
-  line-height: 1.6;
-}
-
-button {
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Products section styles */
-#products {
-  background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-#products table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-#products td {
-  padding: 10px;
-}
-
-article {
-  background-color: #ffffff;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 10px;
-  text-align: center;
-}
-
-figure {
-  margin: 0;
-}
-
-img {
-  border-radius: 8px;
-}
-
-figcaption {
-  font-size: 14px;
-  color: #666;
-}
-
-/* Services section styles */
-#services {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-#services ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#services li {
-  margin-bottom: 10px;
-}
-
-#services a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-#services a:hover {
-  text-decoration: underline;
-}
-
-/* Media section styles */
-.media {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.media iframe {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.media audio {
-  width: 100%;
-  border-radius: 8px;
-}
-
-/* Details and Highlighted Content section styles */
-#details-info, #highlighted-content {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-mark {
-  background-color: #ffeb3b;
-  color: #333;
-  padding: 2px 4px;
-  border-radius: 3px;
-}
-
-/* Contact section styles */
-#contact-address {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-address {
-  font-style: normal;
-}
-
-/* Footer styles */
-footer {
-  background-color: #007bff;
-  color: #ffffff;
-  padding: 20px;
-  text-align: center;
-  border-top: 2px solid #0056b3;
-}
-
-footer table {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-footer th {
-  text-align: left;
-}
-
-footer a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  nav table {
+    width: 100%;
+  }
+  
+  nav td {
+    padding: 10px;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 700;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main content styles */
+  main.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    line-height: 1.6;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Products section styles */
+  #products {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #products table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #products td {
+    padding: 10px;
+  }
+  
+  article {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Services section styles */
+  #services {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #services ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #services li {
+    margin-bottom: 10px;
+  }
+  
+  #services a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  #services a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media section styles */
+  .media {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .media iframe {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .media audio {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Details and Highlighted Content section styles */
+  #details-info, #highlighted-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  mark {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 3px;
+  }
+  
+  /* Contact section styles */
+  #contact-address {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: rgb(233, 164, 216);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #0056b3;
+  }
+  
+  footer table {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  footer th {
+    text-align: left;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
