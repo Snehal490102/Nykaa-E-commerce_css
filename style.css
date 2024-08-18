@@ -1,209 +1,290 @@
 
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
-  }
-  
-  /* Header styles */
-  header {
-    background-color: #ffffff;
-    padding: 10px 0;
-    border-bottom: 2px solid #ddd;
-  }
-  
-  nav table {
-    width: 100%;
-  }
-  
-  nav td {
-    padding: 10px;
-  }
-  
-  nav img {
-    height: 50px;
-  }
-  
-  nav a {
-    color: #007bff;
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: 700;
-  }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Main content styles */
-  main.container {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1, h2, h3 {
-    color: #333;
-    margin: 20px 0;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  section p {
-    line-height: 1.6;
-  }
-  
-  button {
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Products section styles */
-  #products {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  #products table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  #products td {
-    padding: 10px;
-  }
-  
-  article {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  figure {
-    margin: 0;
-  }
-  
-  img {
-    border-radius: 8px;
-  }
-  
-  figcaption {
-    font-size: 14px;
-    color: #666;
-  }
-  
-  /* Services section styles */
-  #services {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  #services ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #services li {
-    margin-bottom: 10px;
-  }
-  
-  #services a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  #services a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Media section styles */
-  .media {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  .media iframe {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  .media audio {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  /* Details and Highlighted Content section styles */
-  #details-info, #highlighted-content {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  mark {
-    background-color: #ffeb3b;
-    color: #333;
-    padding: 2px 4px;
-    border-radius: 3px;
-  }
-  
-  /* Contact section styles */
-  #contact-address {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-  }
-  
-  address {
-    font-style: normal;
-  }
-  
-  /* Footer styles */
-  footer {
-    background-color: rgb(233, 164, 216);
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    border-top: 2px solid #0056b3;
-  }
-  
-  footer table {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  
-  footer th {
-    text-align: left;
-  }
-  
-  footer a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  footer a:hover {
-    text-decoration: underline;
-  }
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav table {
+  width: 100%;
+}
+
+nav td {
+  padding: 10px;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+/* Pseudo-class for hover effect on nav links */
+nav a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #333;
+  margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+section p {
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Button styles */
+button {
+  background: linear-gradient(to right, #007bff, #0056b3);
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Pseudo-element to create a highlight effect on button hover */
+button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: 120%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+  opacity: 0;
+  z-index: 0;
+}
+
+/* Pseudo-class for hover effect on button */
+button:hover::before {
+  opacity: 1;
+}
+
+/* Pseudo-class for hover effect on button */
+button:hover {
+  background: linear-gradient(to right, #0056b3, #003d7a);
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+/* Products section styles */
+#products {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#products table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#products td {
+  padding: 10px;
+}
+
+article {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  position: relative; /* Required for pseudo-element positioning */
+}
+
+/* Pseudo-element to add a "New!" badge to articles */
+article::before {
+  content: 'New!';
+  display: block;
+  font-weight: bold;
+  color: #ff4d4d;
+  background: #fff5f5;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  transform: rotate(45deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Pseudo-class for hover effect on articles */
+article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+
+/* Figure styles */
+figure {
+  margin: 0;
+}
+
+img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+/* Pseudo-class for hover effect on images */
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Figcaption styles */
+figcaption {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Services section styles */
+#services {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#services li {
+  margin-bottom: 10px;
+}
+
+#services a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Pseudo-class for hover effect on services links */
+#services a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Media section styles */
+.media {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.media iframe, .media audio {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Details and Highlighted Content section styles */
+#details-info, #highlighted-content {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+mark {
+  background: #ffeb3b;
+  color: #333;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+/* Contact section styles */
+#contact-address {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Footer styles */
+footer {
+  background: linear-gradient(to right, rgb(233, 164, 216), rgb(207, 114, 214));
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #0056b3;
+}
+
+footer table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+footer th {
+  text-align: left;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Pseudo-class for hover effect on footer links */
+footer a:hover {
+  color: #d4a4d1;
+  text-decoration: underline;
+}
